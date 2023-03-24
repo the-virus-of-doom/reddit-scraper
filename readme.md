@@ -134,3 +134,9 @@ The content should be able to be filtered by tags and searched for content. The 
 - Additional content types (text, audio, etc.)
 - Additional web interface features (sorting, etc.)
 - Content deduplication
+
+## Tech Stack
+
+Things we are using [updated as we go]:
+
+- PRAW (Python Reddit API Wrapper)
