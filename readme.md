@@ -135,6 +135,7 @@ The content should be able to be filtered by tags and searched for content. The 
 
 ## Future Features
 
+- Multithreading
 - Download content from the Reddit API
 - Additional content source scrapers
 - Additional tagging sources
