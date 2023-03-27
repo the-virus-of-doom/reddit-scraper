@@ -55,12 +55,19 @@ If the content is an album or gallery, the following fields should also be inclu
 ### Storage
 
 Downloaded content should be stored in a folder structure based on the original subreddit the content was posted to. The folder structure should be as follows:
+
 `<root folder>/<subreddit>/<content type>/<content ID>.<file extension>`
+
 For example:
+
 `/home/user/reddit-scraper/aww/images/1234567890.jpg`
+
 For albums and galleries, the content type should be `albums` and the content ID should be the Reddit ID of the post. The content should be stored in a folder with the same name as the content ID. The folder structure should be as follows:
+
 `<root folder>/<subreddit>/albums/<content ID>/<content ID>_<content number>.<file extension>`
+
 For example:
+
 `/home/user/reddit-scraper/aww/albums/1234567890/1234567890_1.jpg`
 
 ### Presentation
