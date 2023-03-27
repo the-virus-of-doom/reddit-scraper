@@ -1,19 +1,14 @@
+"""
+Main file for the Reddit Scraper Bot.
+"""
+
 import os
+import praw
 
 # check to see if the praw.ini file exists
 if not os.path.isfile("praw.ini"):
     print("praw.ini file not found. Please create one.")
-    exit()
-
-# make sure praw is installed
-try:
-    import praw
-except ImportError:
-    print("praw module not found. Please install it.")
-    exit()
-
-# import the praw module
-import praw
+    os.system.exit()
 
 # import the praw.ini file
 reddit = praw.Reddit('scraper1', config_interpolation="basic")
