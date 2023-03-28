@@ -43,18 +43,6 @@ class Post:
 
     # functions
 
-    def __init__(self, reddit_id, permalink_url, title, is_nsfw, access_date, post_type, post_content_type, post_content, tags):  # noqa: E501
-        # initialize the class attributes
-        self.reddit_id = reddit_id
-        self.permalink_url = permalink_url
-        self.title = title
-        self.is_nsfw = is_nsfw
-        self.access_date = access_date
-        self.post_type = post_type
-        self.post_content_type = post_content_type
-        self.post_content = post_content
-        self.tags = tags
-
     def __str__(self):
         # return a string representation of the class
         return f"""
@@ -70,6 +58,34 @@ class Post:
             tags={self.tags},
         )
         """
+
+    def init_full(self, reddit_id, permalink_url, title, is_nsfw, access_date,
+                  post_type, post_content_type, post_content, tags):
+        """create a new post
+
+        Args:
+            reddit_id (str): the reddit id of the post
+            permalink_url (str): the permalink url of the post
+            title (str): the title of the post
+            is_nsfw (bool): whether or not the post is nsfw
+            access_date (datetime): the date and time the post was accessed
+            post_type (str): the type of post, either submission or comment
+            post_content_type (str): the type of content in the post, either text, 
+                image, video, gif, link, or embed
+            post_content (str): the content of the post
+            tags (list): a list of strings containing the tags for the post
+        """
+        self.reddit_id = reddit_id
+        self.permalink_url = permalink_url
+        self.title = title
+        self.is_nsfw = is_nsfw
+        self.access_date = access_date
+        self.post_type = post_type
+        self.post_content_type = post_content_type
+        self.post_content = post_content
+        self.tags = tags
+
+        return self
 
     def get_tags(self):
         """return the tags for the post
