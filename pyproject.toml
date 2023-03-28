@@ -5,4 +5,4 @@ requires-python = ">=3.11"
 [tool.ruff]
 # Decrease the maximum line length to 79 characters.
 # line-length = 79
-# src = ["src"]
+src = ["src"]
