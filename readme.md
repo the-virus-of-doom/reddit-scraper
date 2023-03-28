@@ -1,7 +1,6 @@
 # Reddit Scraper [WIP NAME]
 
-[![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/PyCQA/pylint)
-[![pylint](https://github.com/the-virus-of-doom/reddit-scraper/actions/workflows/pylint.yml/badge.svg?event=push)](https://github.com/the-virus-of-doom/reddit-scraper/actions/workflows/pylint.yml)
+[![Python Linting](https://github.com/the-virus-of-doom/reddit-scraper/actions/workflows/python-app.yml/badge.svg)](https://github.com/the-virus-of-doom/reddit-scraper/actions/workflows/python-app.yml)
 
 This project is to be used to export saved content from reddit and then provide sources to the content, grabbing higher resolutions if found.
 
