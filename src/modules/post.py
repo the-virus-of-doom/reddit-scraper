@@ -43,7 +43,7 @@ class Post:
 
     # functions
 
-    def __init__(self, reddit_id, permalink_url, title, is_nsfw, access_date, post_type, post_content_type, post_content, tags):
+    def __init__(self, reddit_id, permalink_url, title, is_nsfw, access_date, post_type, post_content_type, post_content, tags):  # noqa: E501
         # initialize the class attributes
         self.reddit_id = reddit_id
         self.permalink_url = permalink_url
