@@ -75,7 +75,7 @@ For example:
 
 ### Presentation
 
-Display the local database in a web interface, with the ability to filter by tags and search for content. The web interface should also allow for the addition of tags to the local database and the ability to favorite content. 
+Display the local database in a web interface, with the ability to filter by tags and search for content. The web interface should also allow for the addition of tags to the local database and the ability to favorite content.
 
 ## Content Sources
 
@@ -150,5 +150,6 @@ The content should be able to be filtered by tags and searched for content. The 
 
 Things we are using [updated as we go]:
 
-- PRAW (Python Reddit API Wrapper)
-- Pylint (Python Linter)
+- [PRAW (Python Reddit API Wrapper)](https://github.com/praw-dev/praw)
+- [Pylint (Python Linter)](https://github.com/PyCQA/pylint)
+- [TinyDB (Python JSON database)](https://github.com/msiemens/tinydb)
