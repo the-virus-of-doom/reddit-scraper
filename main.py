@@ -7,8 +7,8 @@ import praw
 
 # check to see if the praw.ini file exists
 if not os.path.isfile("praw.ini"):
-    print("praw.ini file not found. Please create one.")
-    os.system.exit()
+    print("praw.ini file not found. Please copy the example and add your Reddit keys.")
+    exit(1)
 
 # import the praw.ini file
 reddit = praw.Reddit('scraper1', config_interpolation="basic")

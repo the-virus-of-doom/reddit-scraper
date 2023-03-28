@@ -1,5 +1,6 @@
 # .gitignore
 .vscode
-praw.ini
+.ruff_cache
+**/praw.ini
+**/__pycache__
 data/db.json
-modules/__pycache__

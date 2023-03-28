@@ -14,9 +14,9 @@ def seed_db_with_posts():
     """
     Seed the database with some test data.
     """
-    seed_post = post.Post('', '', 'Test Post', False, '2020-01-01 00:00:00', 'submission', 'text', 'this is some text', ['test', 'custom_tag', 'custom_tag_1'])
+    seed_post = post.Post('', '', 'Test Post', False, '2020-01-01 00:00:00', 'submission', 'text', 'this is some text', ['test', 'custom_tag', 'custom_tag_1'])  # noqa: E501
     add_post(seed_post)
-    seed_post = post.Post('', '', 'Test Post 2', False, '2020-01-01 00:00:00', 'submission', 'text', 'this is some text', ['test', 'custom_tag', 'custom_tag_2'])
+    seed_post = post.Post('', '', 'Test Post 2', False, '2020-01-01 00:00:00', 'submission', 'text', 'this is some text', ['test', 'custom_tag', 'custom_tag_2'])  # noqa: E501
     add_post(seed_post)
 
 def seed_db():
