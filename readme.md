@@ -1,3 +1,7 @@
+yeah this is dead now that reddit is doing dumb api stuff and won't back down from their ridiculous changes. time for another project 🤦
+
+
+
 # Reddit Scraper [WIP NAME]
 
 [![Python Linting](https://github.com/the-virus-of-doom/reddit-scraper/actions/workflows/python-app.yml/badge.svg)](https://github.com/the-virus-of-doom/reddit-scraper/actions/workflows/python-app.yml)
